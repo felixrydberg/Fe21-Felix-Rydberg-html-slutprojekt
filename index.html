@@ -1,16 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-
-
-<!-- TODO:
-Download all videos
-Rename all videos 
-Add sources with media
-Add js support for chrome browsers
--->
-
-
 <head>
   <meta charset="utf-8">
   <title></title>
@@ -36,7 +25,8 @@ Add js support for chrome browsers
       </nav>
     </header>
     <main>
-      <video class="main-video" autoplay muted loop>
+      <!-- Imed att google chrome är bajs kan man inte använda media funktionen på videos :/-->
+      <video class="main-video" autoplay muted loop poster="image/banner.png">
         <source src="video/1080p.mp4" media="(max-width: 1080px)" type="video/mp4">
         <source src="video/720p.mp4" media="(max-width: 720px)" type="video/mp4">
         <source src="video/360p.mp4" media="(max-width: 360px)" type="video/mp4">
@@ -46,7 +36,7 @@ Add js support for chrome browsers
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis leo tellus, quis blandit tortor volutpat a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;.</p>
       </article>
       <div class="flex-container">
-        <article><a href="video.html">
+        <article><a href="video/1080p.mp4">
           <picture>
             <source srcset="image/Projects/Project1/160x160.png" media="(max-width: 500px)">
             <source srcset="image/Projects/Project1/240x240.png" media="(max-width: 700px)">
