@@ -95,6 +95,10 @@ main {
     padding: 1rem;
 }
 
+.main-article h1 {
+    font: 2rem;
+}
+
 .flex-container {
     grid-row:  3;
     display: flex;
